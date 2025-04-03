@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img.scale-with-grid {
+	width: 100%; /*override existing setting*/
+}
+
+img.full-height {
+	height: 100%; /*override existing setting*/
+}
+
+
+/*MODIFICATIONS*/
+
+.quarter-bottom-rel { margin-bottom: 4% !important; }
+.quarter-bottom { margin-bottom: 25px !important; }
+.half-bottom { margin-bottom: 50px !important; }
+.one-bottom, .add-bottom { margin-bottom: 100px !important; }
+.two-bottoms { margin-bottom: 200px !important; }
+.one-top { margin-top: 100px !important; }
+.two-tops { margin-top: 200px !important; }
+
+.center{
+	text-align: center;
+}
+
+
+
