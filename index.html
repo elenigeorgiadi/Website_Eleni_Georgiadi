@@ -150,19 +150,36 @@
       }
     </script>
 
-<div class="twelve columns">
-  <a href="https://kkofotol.github.io/MicroPulse/" target="_blank">
-    <img src="images/W10.png" class="scale-with-grid">
-    <h5 style="font-family:'Cute Font'; font-size:200%; color:rgb(255,255,0); cursor:pointer;" onclick="toggleGallery('pacmanGallery')">
-      <b>MicroPulse: A Team Project</b>
-    </h5>
-    <p style="font-family:'Cute Font'; font-size:180%; color:rgb(255,255,0); cursor:pointer;" onclick="toggleGallery('pacmanGallery')">
-      click to view
-    </p>
-  </a>
-</div>
 
-    
+    </div>
+
+    <script>
+      function toggleGallery(id) {
+        const gallery = document.getElementById(id);
+        if (gallery.style.display === "none" || gallery.style.display === "") {
+          gallery.style.display = "block";
+        } else {
+          gallery.style.display = "none";
+        }
+      }
+    </script>
+
+ 
+    <div class="row one-bottom" style="padding-top: 40px;">
+      <div class="twelve columns" style="text-align: center;">
+        <a href="https://kkofotol.github.io/MicroPulse/" target="_blank">
+          <img src="images/W10.png" class="scale-with-grid" style="max-width: 100%; height: auto;">
+          <h5 style="font-family:'Cute Font'; font-size:200%; color:rgb(255,255,0); margin-top: 20px;">
+            <b>MicroPulse: A Team Project</b>
+          </h5>
+          <p style="font-family:'Cute Font'; font-size:180%; color:rgb(255,255,0);">
+            click to view
+          </p>
+        </a>
+      </div>
+    </div>
+
+
     <!-- Footer -->
     <div class="row one-bottom center" style="padding-top: 100px; text-align:center;">
       <h5 style="font-family:'Cute Font'; font-size:180%; color:rgb(255, 255, 255)">
@@ -173,3 +190,4 @@
   </div>
 </body>
 </html>
+
